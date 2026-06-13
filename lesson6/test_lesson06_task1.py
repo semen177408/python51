@@ -6,7 +6,6 @@ from selenium.webdriver.support import expected_conditions as EC
 
 def test_dynamic_loading():
     driver = webdriver.Chrome()
-    driver.maximize_window()
 
     # Откройте страницу (теперь правильно внутри функции)
     driver.get("https://the-internet.herokuapp.com/dynamic_loading/2")
@@ -31,6 +30,3 @@ def test_dynamic_loading():
     )
 
     driver.quit()
-
-
-test_dynamic_loading()

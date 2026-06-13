@@ -72,6 +72,3 @@ def test_session_storage_auth():
     URL одинаковые: {url_user1} == {url_user2}"""
 
     driver.quit()
-
-
-test_session_storage_auth()
